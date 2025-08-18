@@ -1,3 +1,12 @@
+# ------- Add to Unbound OPNsense Whitelist as Regex ------- #
+
+^(.*\.)*googletagmanager\.com$
+^(.*\.)*auth\.split\.io$
+^(.*\.)*mobile\.launchdarkly\.com$
+^(.*\.)*aax-eu\.amazon\.co.uk$
+^(.*\.)*go\.skimresources\.com$
+
+# ---------------------------------
 router.asus.com^$dnsrewrite=192.168.1.250
 asus.home^$dnsrewrite=192.168.1.1
 opnsense.home^$dnsrewrite=192.168.1.1
