@@ -1,5 +1,14 @@
-########## Blocklist from file:ag_custom.txt ##########
-
+omada
+browser.sentry-cdn.com
+/^.*p\.(([0-9]{1,3}\.){4})in-addr\.arpa/
+/^(.+[_.-])?lb._dns-sd*[_.-]/
+/^(.+[_.-])?db._dns-sd*[_.-]/
+||_dns-sd._udp.internal^
+||ipv4only.arpa^
+||_dns.resolver.arpa^
+/^*_matter._tcp.default.service.arpa/
+/^*_dns-push-tls._tcp*/
+/^_aaplcache\d*._tcp.internal/
 /^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
 /^(.+[_.-])?telemetry[_.-]/
 /^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
@@ -11,11 +20,6 @@
 /^banners?[_.-]/
 /^beacons?[0-9]*[_.-]/
 /^count(ers?)?[0-9]*[_.-]/
-/^stat(s|istics)?[0-9]*[_.-]/
-/^(.+[_.-])?db._dns-sd*[_.-]/
-/^(.+[_.-])?lb._dns-sd*[_.-]/
+/^mads\./
 /^pixels?[-.]/
-/^*_dns-push-tls._tcp*/
-/^.*p\.(([0-9]{1,3}\.){4})in-addr\.arpa/
-/^*_matter._tcp.default.service.arpa/
-/^_aaplcache\d*._tcp.internal/
+/^stat(s|istics)?[0-9]*[_.-]/
