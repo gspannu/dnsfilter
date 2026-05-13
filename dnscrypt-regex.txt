@@ -7,7 +7,6 @@
 ^.*_matter\._tcp\.default\.service\.arpa
 ^.*_dns-push-tls\._tcp.*
 ^_aaplcache\d*\._tcp\.internal
-(^|\.)browser\.sentry-cdn\.com
 ^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
 ^(.+[_.-])?telemetry[_.-]
 ^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
@@ -22,3 +21,4 @@
 ^mads\.
 ^pixels?[-.]
 ^stat(s|istics)?[0-9]*[_.-]
+*browser.sentry-cdn.com
